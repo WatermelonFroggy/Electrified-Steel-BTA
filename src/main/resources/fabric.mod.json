@@ -3,10 +3,10 @@
   "id": "examplemod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Electrified Steel",
+  "description": "Electrified Steel is a Better Than Adventure mod that allows you to make Electrified Steel, A new variant of steel that yields extra drops from ores and mobs.",
   "authors": [
-    "Turnip Labs"
+    "WatermelonFrogy"
   ],
   "contact": {
     "homepage": "",
@@ -14,25 +14,19 @@
   },
 
 	"icon": "icon.png",
-  "license": "CC0-1.0",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"wf.electrifiedsteel.ElectrifiedSteel"
     ],
-		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
-		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
-		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"wf.electrifiedsteel.ElectrifiedSteel"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+      "electrifiedsteel.mixins.json"
   ],
 
   "depends": {
